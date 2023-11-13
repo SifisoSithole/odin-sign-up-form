@@ -88,6 +88,18 @@ form > p:last-child {
     font-size: 1rem;
 }
 
+.row > input:focus {
+    border: 1px solid blue;
+}
+
+.row > input[type="password"]:invalid {
+    border: 1px solid red;
+}
+
+.row > input[type="password"]:valid {
+    border: 1px solid #E5E7EB;
+}
+
 a {
     text-decoration: none;
     color: #596D48;
